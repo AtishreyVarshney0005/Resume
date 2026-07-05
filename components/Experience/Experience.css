@@ -94,6 +94,15 @@
   padding-left: 40px;
 }
 
+.timeline-item:only-child {
+  margin: 0 auto 45px;
+  max-width: 700px;
+  width: 100%;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 /* Timeline Icon */
 .timeline-icon {
   position: absolute;
@@ -527,37 +536,6 @@
   .tech-stack span {
     font-size: 9px;
     padding: 4px 8px;
-  }
-}
-    font-size: 36px;
-  }
-
-  .timeline::before {
-    left: 20px;
-  }
-
-  .timeline-item:nth-child(odd),
-  .timeline-item:nth-child(even) {
-    margin-left: 80px;
-    margin-right: 0;
-    text-align: left;
-  }
-
-  .timeline-icon {
-    left: 0;
-    transform: translateX(0);
-  }
-
-  .timeline-content {
-    padding: 25px;
-  }
-
-  .timeline-content h3 {
-    font-size: 20px;
-  }
-
-  .timeline-meta {
-    font-size: 12px;
   }
 }
 
