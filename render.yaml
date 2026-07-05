@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: resume-portfolio
+    env: static
+    branch: main
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    root: .
+    autoDeploy: true
